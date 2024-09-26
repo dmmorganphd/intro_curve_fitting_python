@@ -1,0 +1,12 @@
+Once uploaded to github:
+
+this github package is now updated with respect to the branch currently 
+under revision chez moi. To merge correctly:
+
+mv the clone which is presently chez moi into a tarchive elsewhere on the system
+delete the .../gh/intro_curve_fit_python package entirely from chez moi
+reclone the package chez moi from this github source
+untarchive the package from chez moi _over_ this newly recloned package chez moi
+git add *
+git commit -m "installation de chez moi"
+git push origin main

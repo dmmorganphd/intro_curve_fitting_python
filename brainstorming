@@ -1,0 +1,7 @@
+git add
+git commit -m "Installation instructions & logic from chez Lise"
+see also ./2_merge_w_chez_moi
+
+mv intro.ipynb start_here.ipynb
+Verify names for and existence of all necessary ipynb files and 
+their html counterparts
