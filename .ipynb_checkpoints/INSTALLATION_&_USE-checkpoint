@@ -26,8 +26,8 @@ on Windows machines.
 Installation from the tgz archive:
 
 On the linux command line change into the directory in which you wish to place the
-parent directory of this installation, and decompress the intro_curve_fitting_python.tgz 
-archive into that directory. Execute:
+parent directory of this installation, and copy the intro_curve_fitting_python.tgz 
+file into that directory. Execute:
 
 tar -zxvf intro_curve_fitting_python.tgz
 
