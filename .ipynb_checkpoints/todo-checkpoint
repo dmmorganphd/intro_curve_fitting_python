@@ -1,2 +1,14 @@
 Verify names for and existence of all necessary ipynb files and 
 their html counterparts
+Prepare solutions
+    Linear solutions prepared
+    Exponential solutions in progress
+
+Pitfalls encountered:
+    wrong equation
+        wrong equation solution in progress
+    maxfev
+        maxfev solution described
+    right equation, wrong fit
+        right equation wrong fit solution in progress
+        under exponential solutions
