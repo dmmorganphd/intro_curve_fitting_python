@@ -1,11 +1,14 @@
 #!/usr/bin/bash
 
+wd=`pwd`
+parentdir="$(dirname "$wd")"
+cd $parentdir
+if [ $? != 0 ]; then
+	echo "problem changing to parent directory"
+	exit
+fi
+
 IFS='/'
-read -ra newarr <<< `pwd`
-
-# echo "there are "${#newarr[@]}" elements in newarr and the last element is: "${newarr[-1+${#newarr[@]}]}
-
-datestamp=`date +%s`
-nfn="..//"${newarr[-1+${#newarr[@]}]}
-
-echo $nfn
+read -ra newarr <<< $wd
+tfn=${newarr[-1+${#newarr[@]}]}".tgz"
+tar -zcvf $tfn ${newarr[-1+${#newarr[@]}]} 
