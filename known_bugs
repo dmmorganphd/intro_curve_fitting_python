@@ -1,0 +1,4 @@
+Latex equation syntax renders directly in html. 
+derivation....ipynb fails to convert to pdf.
+	problem appears to be associated with \degree conversion in 
+	equation markdown
