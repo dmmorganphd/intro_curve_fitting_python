@@ -12,3 +12,10 @@ Pitfalls encountered:
     right equation, wrong fit
         right equation wrong fit solution in progress
         under exponential solutions
+
+collect definitions and variable defaults into such a script
+
+install in each ipynb
+
+put a link to the appropriate set of solutions into each fitting file. 
+
