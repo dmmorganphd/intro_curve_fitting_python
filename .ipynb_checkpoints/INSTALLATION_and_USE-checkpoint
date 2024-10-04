@@ -1,6 +1,15 @@
 # intro_curve_fitting_python
 DMM's introduction to the use of python for curve fitting. 
+
 Written for the Colbert Lab at NDSU, with best wishes. 
+
+Code herein is
+
+Copyright (C) 2024
+David M. Morgan, Ph.D.
+GNU General Public License v. 3.0 or later
+
+If you make use of this code in your research, kindly acknowledge the fact. 
 
 **
 Prerequisites:
@@ -17,7 +26,7 @@ and here for jupyter:
 https://jupyter.org/
 
 These instructions are for installing the package using the linux command line,
-and they assume a basic familiarity with how to use it. However, both python and 
+and they assume a basic familiarity with it. However, both python and 
 jupyter are operating-system agnostic, and, provided Windows syntax is used for 
 specifying directory and file names, it should be possible to run these notebooks 
 on Windows machines. 
@@ -55,4 +64,7 @@ directory. You may click on any directory or file to open it. Jupyter notebooks 
 ".ipynb" file extensions. The first time you use the software, you should start with
 the "start_here.ipynb" and proceed through the various notebooks in the order in which
 you are guided through them. 
+
+**
+All notebooks are reproduced as webpages in the 'html' subdirectory. 
 
